@@ -30,4 +30,3 @@
 
 .w3-hover-text-cyan:hover{color: rgba(73,170,212,1)!important}
 .w3-text-cyan{color:rgba(73,170,212,1)!important}
-@media (max-width:992px) and (min-width:400px){.w3-hide-medium{display:none!important}}
