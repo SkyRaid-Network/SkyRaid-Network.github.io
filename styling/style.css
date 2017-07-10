@@ -32,3 +32,11 @@
 .w3-text-cyan{color:rgba(73,170,212,1)!important}
 @media (max-width:750px){.w3-hide-small{display:none!important}}
 @media (max-width:992px) and (min-width:751px){.w3-hide-medium{display:none!important}}
+
+.nav {
+    background-image: url(navBG.png);
+} 
+
+.nav a {
+    background: none;
+}
