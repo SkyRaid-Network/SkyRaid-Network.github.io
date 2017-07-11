@@ -40,3 +40,8 @@
 .nav a {
     background: none;
 }
+
+.post {
+    text-decoration: none;
+    color: inherit;
+}
