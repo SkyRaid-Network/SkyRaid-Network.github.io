@@ -39,22 +39,20 @@
     
     <!-- Main Content Here -->
     <h1 class="w3-jumbo w3-text-cyan w3-padding-large">Home.</h1>
+    </div> 
     
-    </div>
-    
-     <br />
-    <div class="w3-container">
-        <a href="posts/welcome.html" class="post">
-        <div class="w3-card-4 w3-container w3-padding-large" style="width:49%">
-            <img src="styling/navBG.png" alt="Shaders" width="60%" height="100%" class="w3-padding w3-right">
+    <div class="w3-container w3-mobile">
+    <a href="posts/welcome.html" class="post">
+            <div class="w3-card-4 w3-container w3-padding-large" style="width:48%">
+            <img src="styling/navBG.png" alt="Shaders" width="60%" height="100%" class="w3-padding w3-right" onmouseenter='toggleClass(this, "w3-sepia-min");' onmouseout='toggleClass(this,"w3-sepia-min");'>
                 <h3 class="w3-padding-medium">Welcome to the New Website</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus, mi in euismod lacinia, dui dolor dignissim arcu, eget scelerisque sem eros at dolor. Donec aliquam neque nec nunc fermentum facilisis. Curabitur placerat sem id augue consequat mattis eget ac mi. Donec sed elit nec massa eleifend eleifend.</p>
             <i class="w3-right w3-padding">Read More...</i>
     </div>
+            
             </a>
-        <br />
-        
         </div>
+    
     
     <script>
         function hamburger() {
@@ -64,7 +62,19 @@
     } else { 
         x.className = x.className.replace(" w3-show", "");
     }
+            
+            
 }
+        
+        function toggleClass(x, t) {
+                 if (x.className.indexOf(t) == -1) {
+        x.className += " " + t;
+    } else { 
+        x.className = x.className.replace(" " + t, "");
+    }
+            }
+        
+        
 </script>
 </body>
 </html>

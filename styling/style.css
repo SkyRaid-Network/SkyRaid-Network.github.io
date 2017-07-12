@@ -45,3 +45,8 @@
     text-decoration: none;
     color: inherit;
 }
+
+div .w3-card-4, div .w3-card {
+    display: inline-block;
+    margin: 0.5%;
+}
